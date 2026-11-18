@@ -1,0 +1,12 @@
+[tool.pylint.main]
+ignore-paths = ["^\\.venv/.*", "^venv/.*"]
+
+[tool.pylint.format]
+max-line-length = 100
+
+[tool.pylint."messages control"]
+disable = [
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+]
